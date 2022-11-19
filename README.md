@@ -4,11 +4,7 @@
 
 ## Veri Seti Yorumlaması
 
-Öncelikle bize verilen veri setindeki sütünları, bu sütündaki eksik değerleri ve eksik değerlerin oranlarını inceledim.
-
-![2022-11-19](https://user-images.githubusercontent.com/83637039/202848306-38d908be-f4cc-4a3c-addc-4436d74f6514.png)
-
-Verimde neyi inceleyebilirim
+Verimde neyi inceleyebilirim?
 
 Bu veri seti içerisinde; covid-19 salgını ile ilgili :Kıtalar ve ülkeler bazında günlük vaka, günlük ölüm, günlük test sayısı, aşılma sayısı gibi veriler vardır.
 Bunlardan çıkartabileceğimiz analizlere bakalım.
@@ -22,25 +18,32 @@ Nelere bakılması gerekiyor
 4. Günlük ortalama vaka sayısı.
 5. 65 yaşından büyük vakaların toplamı.
 
+Verimiz çeşitli pandas kodlarıyla verimi inceledim.
+
+Veri sütünlardaki null değerleri, veri tiplerini, info
+
+Öncelikle bize verilen veri setindeki sütünları, bu sütündaki eksik değerleri ve eksik değerlerin oranlarını inceledim.
+
+![image](https://user-images.githubusercontent.com/83637039/202867288-9e9b0c9a-049b-474f-8617-10882f130bb2.png)
 
 ### 1. Ülkelere göre günlük vaka sayısı.
 
 Tüm ülkeleri incelediğimde 'World'  diye bir satırlar olduğunu gördüm. Bu satırların ülke bazında yanlışlıklara yol açacağından satırları sildim.
 Daha sonra ülke ve kıta bazında günlük vaka sayısını filtreledim.
 
-![2022-11-19 (1)](https://user-images.githubusercontent.com/83637039/202855800-9daf23bd-ff16-48b1-ad83-6c5ede22c03c.png)
+![image](https://user-images.githubusercontent.com/83637039/202867338-55310e9c-edbe-4f5e-9199-2350833e3c20.png)
 
 ### 2. Ülkelere göre ortalama vaka sayısı.
 
-![2022-11-19 (2)](https://user-images.githubusercontent.com/83637039/202856518-46fae68d-a5c4-45e6-94c9-7b3ea9adaa42.png)
+![image](https://user-images.githubusercontent.com/83637039/202867361-51658356-7d78-4033-9af6-bcc5cc93a379.png)
 
 ### 3. Ülkelere göre toplam aşılama sayısı.
 
-![2022-11-19 (3)](https://user-images.githubusercontent.com/83637039/202856690-7aa7edd6-f500-40f9-866f-0a669968c7d5.png)
+![image](https://user-images.githubusercontent.com/83637039/202867376-f9d6c79e-d49e-450c-8375-7ed0536550ce.png)
 
 ### 4. Günlük ortalama vaka sayısı.
 
-![2022-11-19 (7)](https://user-images.githubusercontent.com/83637039/202857117-a614fba9-8906-4d80-818c-345b69e522cb.png)
+![image](https://user-images.githubusercontent.com/83637039/202867391-11181d38-8a98-48fd-8ba3-66a242474d18.png)
 
 ### 5. 65 yaşından büyük vakaların toplamı.
 ```
