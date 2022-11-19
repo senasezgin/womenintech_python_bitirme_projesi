@@ -53,9 +53,33 @@ print(f" 65 yaşından büyük vakaların toplamı : {aged_65_sum} ")
  ## Veri Görselleştirmesi
  Verilerimizi inceledik şimdide bu incelediğimiz verilerin görselleştirmesine bakarak yorumlayalım.
  
-### 
-Bu görselleştirmede africa kıtasının oranın düşüklüğü saptadım. Bu düşüklüğün test sayısıyla ilgi bir bağlantısı var mı? diye merak ettim.
+#### 1. Bu görselleştirmede önce test sayısıyla vakalar arasındaki ilişkiyi inceledim. Mesela africa kıtasının oranın düşüklüğü saptadım. Bu düşüklüğün test sayısıyla ilgi bir bağlantısı var mı diye karşılaştırdım.
+
 ![test sayısı ile vaka oranı](https://user-images.githubusercontent.com/83637039/202858145-697f12b5-fe76-46bd-a9c9-a45ba01feca8.png)
+
+### 2. 'gdp_per_capita', 'extreme_poverty', 'diabetes_prevalence', 'female_smokers', 'male_smokers', 'handwashing_facilities', 'life_expectancy', 'human_development_index', 'population gibi verilerin bir biriyle ilişkisini korelasyon haritasında inceledim.
+
+![corelasyon](https://user-images.githubusercontent.com/83637039/202862448-3e5bc85d-2677-4902-aa14-7c43971663af.png)
+
+### 3. 65 yaş ve üstü vakaların 65 yaş altındaki vakalarına olan oranını inceledim. 
+
+![65yaş](https://user-images.githubusercontent.com/83637039/202862543-efe1635c-b5f8-491a-a3d2-29d019405ff3.png)
+
+### 4. Koronanın ilk çıktığı günden itibaren günlük vakalara göre görselleştirdim.
+
+![outputvaka](https://user-images.githubusercontent.com/83637039/202862831-2279a0ab-1a1f-4f5f-bb28-5f07a70d40ff.png)
+
+### 5. Kıtalara göre popülasyonun aşılanma oranına göre ilişkisini inceledim.
+
+![aşılanma populasyon](https://user-images.githubusercontent.com/83637039/202862961-c3b8d68c-bf6d-4c77-8bcd-1d20a21e2763.png)
+
+### 6. Korananın üreme oranını etkilemiş mi diye inceledim.
+
+![üremeoranı](https://user-images.githubusercontent.com/83637039/202863013-2a0aa016-8a31-4887-8fb5-ead0ab2c1cfd.png)
+
+
+
+
 
  
 
