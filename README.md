@@ -6,7 +6,7 @@
 
 Verimde neyi inceleyebilirim?
 
-Bu veri seti içerisinde; covid-19 salgını ile ilgili :Kıtalar ve ülkeler bazında günlük vaka, günlük ölüm, günlük test sayısı, aşılma sayısı gibi veriler vardır.
+Bu veri seti içerisinde; covid-19 salgını ile ilgili :Kıtalar ve ülkeler bazında günlük vaka, günlük ölüm, günlük test sayısı, aşılama sayısı gibi veriler vardır.
 Bunlardan çıkartabileceğimiz analizlere bakalım.
 
 
