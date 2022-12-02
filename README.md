@@ -59,7 +59,7 @@ print(f" 65 yaşından büyük vakaların toplamı : {aged_65_sum} ")
 
 ![test sayısı ile vaka oranı](https://user-images.githubusercontent.com/83637039/202858145-697f12b5-fe76-46bd-a9c9-a45ba01feca8.png)
 
-### 2. 'gdp_per_capita', 'extreme_poverty', 'diabetes_prevalence', 'female_smokers', 'male_smokers', 'handwashing_facilities', 'life_expectancy', 'human_development_index', 'population gibi verilerin bir biriyle ilişkisini korelasyon haritasında inceledim.
+### 2. 'gdp_per_capita', 'extreme_poverty', 'diabetes_prevalence', 'female_smokers', 'male_smokers', 'handwashing_facilities', 'life_expectancy', 'human_development_index', 'population gibi verilerin korelasyon haritası
 
 ![corelasyon](https://user-images.githubusercontent.com/83637039/202862448-3e5bc85d-2677-4902-aa14-7c43971663af.png)
 
