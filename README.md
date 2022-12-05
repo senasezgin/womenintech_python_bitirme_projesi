@@ -4,58 +4,11 @@
 
 ## Veri Seti Yorumlaması
 
-Verimde neyi inceleyebilirim?
-
 Bu veri seti içerisinde; covid-19 salgını ile ilgili :Kıtalar ve ülkeler bazında günlük vaka, günlük ölüm, günlük test sayısı, aşılama sayısı gibi veriler vardır.
-Bunlardan çıkartabileceğimiz analizlere bakalım.
+Bunlardan çıkartılan analizler :
 
-
-Nelere bakılması gerekiyor
-
-1. Ülkelere göre günlük vaka sayısı.
-2. Ülkelere göre ortalama vaka sayısı.
-3. Ülkelere göre toplam aşılama sayısı.
-4. Günlük ortalama vaka sayısı.
-5. 65 yaşından büyük vakaların toplamı.
-
-Verimiz çeşitli pandas kodlarıyla verimi inceledim.
-
-Veri sütünlardaki null değerleri, veri tiplerini, info
-
-Öncelikle bize verilen veri setindeki sütünları, bu sütündaki eksik değerleri ve eksik değerlerin oranlarını inceledim.
-
-![image](https://user-images.githubusercontent.com/83637039/202867288-9e9b0c9a-049b-474f-8617-10882f130bb2.png)
-
-### 1. Ülkelere göre günlük vaka sayısı.
-
-Tüm ülkeleri incelediğimde 'World'  diye bir satırlar olduğunu gördüm. Bu satırların ülke bazında yanlışlıklara yol açacağından satırları sildim.
-Daha sonra ülke ve kıta bazında günlük vaka sayısını filtreledim.
-
-![image](https://user-images.githubusercontent.com/83637039/202867338-55310e9c-edbe-4f5e-9199-2350833e3c20.png)
-
-### 2. Ülkelere göre ortalama vaka sayısı.
-
-![image](https://user-images.githubusercontent.com/83637039/202867361-51658356-7d78-4033-9af6-bcc5cc93a379.png)
-
-### 3. Ülkelere göre toplam aşılama sayısı.
-
-![image](https://user-images.githubusercontent.com/83637039/202867376-f9d6c79e-d49e-450c-8375-7ed0536550ce.png)
-
-### 4. Günlük ortalama vaka sayısı.
-
-![image](https://user-images.githubusercontent.com/83637039/202867391-11181d38-8a98-48fd-8ba3-66a242474d18.png)
-
-### 5. 65 yaşından büyük vakaların toplamı.
-```
-aged_65_sum = df["aged_65_older"].sum()+ df["aged_70_older"].sum() 
-print(f" 65 yaşından büyük vakaların toplamı : {aged_65_sum} ")
-```
- 65 yaşından büyük vakaların toplamı : 2676555.0030000005 
  
- 
- ## Veri Görselleştirmesi
- 
-#### 1. Bu görselleştirmede önce test sayısıyla vakalar arasındaki ilişki
+#### 1. Test sayısıyla vakalar arasındaki ilişki
 
 ![test sayısı ile vaka oranı](https://user-images.githubusercontent.com/83637039/202858145-697f12b5-fe76-46bd-a9c9-a45ba01feca8.png)
 
